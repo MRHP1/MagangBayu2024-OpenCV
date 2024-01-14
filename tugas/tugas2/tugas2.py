@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # import gambar
-img = cv2.imread("tugas_bayucaraka/tugas2.jpg")
+img = cv2.imread("tugas/tugas2/tugas2.jpg")
 
 # blur
 img_blur = cv2.GaussianBlur(img, (3, 3), 100)

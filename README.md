@@ -9,5 +9,5 @@ https://stackoverflow.com/questions/60428259/vscode-autocomplete-not-working-for
 
 Buat fork baru aja, biar aku gampang nge-cek nya. 
 Tulis nama dibawah ini: \
-Nama: \
-NRP: 
+Nama: Muhammad Risyad Himawan Putra\
+NRP: 5025231205

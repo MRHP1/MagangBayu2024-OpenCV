@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Baca gambar
-image = cv2.imread('tugas_bayucaraka/tugas1.png')
+image = cv2.imread('tugas/tugas1/tugas1.png')
 
 # Konversi gambar ke format HSV
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)

@@ -14,13 +14,13 @@ print(opt)
 # Load YOLO model
 print("importing YOLO")
 from ultralytics import YOLO
-model = YOLO("tugas_bayucaraka/best.pt")
+model = YOLO("tugas/tugas3/kucing.pt")
 if opt.useCuda:
     print("sending model to CUDA")
     model.to('cuda')
 
 # Open the video file
-cap = cv2.VideoCapture("tugas_bayucaraka/videokucing.mp4")
+cap = cv2.VideoCapture("tugas/tugas3/videokucing_COMPRESSED.mp4")
 
 frame_count = 0
 total_fps = 0

@@ -20,7 +20,7 @@ if opt.useCuda:
     model.to('cuda')
 
 # Read image
-frame = cv2.imread("tugas_bayucaraka/kucing.png")
+frame = cv2.imread("tugas/tugas3/kucing.png")
 frame_width = frame.shape[1]
 frame_height = frame.shape[0]
 
